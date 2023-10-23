@@ -3,6 +3,9 @@ let searchbar = document.querySelector('.search-bar-container');
 
 window.onscroll = () =>{
    searchbar.classList.remove('active')
+   menu.classList.remove('fa-times')
+    navbar.classList.remove('active')
+    loginform.classList.remove('active');
 }
 
 searchbtn.addEventListener('click', ()=>{
@@ -21,4 +24,14 @@ formbtn.addEventListener('click', ()=>{
 });
 closeform.addEventListener('click', ()=>{
     loginform.classList.remove('active');
+});
+
+
+
+let menu = document.querySelector('#menu-bar');
+let navbar = document.querySelector('.navbar');
+
+menu.addEventListener('click', ()=>{
+    menu.classList.toggle('fa-times')
+    navbar.classList.toggle('active')
 });
