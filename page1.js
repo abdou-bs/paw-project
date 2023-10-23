@@ -35,3 +35,15 @@ menu.addEventListener('click', ()=>{
     menu.classList.toggle('fa-times')
     navbar.classList.toggle('active')
 });
+
+
+let videobtn = document.querySelectorAll('.vid-btn');
+
+videobtn.forEach(btn =>{
+    btn.addEventListener('click',()=>{
+       document.querySelector('.controls .active').classList.remove('active')
+       btn.classList.add('active')
+       let src = btn.getAttribute('data-src');
+       document.querySelector('#video-slider').src = src;
+    })
+})
