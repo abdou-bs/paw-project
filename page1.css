@@ -62,7 +62,6 @@ section{
 header{
     position: fixed;
     top: 0;left: 0;right: 0;
-    background:yellow;
     z-index: 1000;
     display: flex;
     align-items: center;
@@ -70,6 +69,24 @@ header{
     padding: 2rem 9%;
 
 }
+header.active{
+    background: white;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    
+}
+header.active .logo span{
+    color: black;
+}
+header.active .navbar a{
+    color: black;
+}
+header.active .icons i{
+    color: black;
+}
+header.active #menu-bar{
+    color: black;
+}
+
 header .logo{
     font-size: 2.5rem;
     font-weight: bolder;
@@ -384,6 +401,12 @@ padding: .5rem 0;
     padding: 2rem;
     margin: 2rem;
     background: #222;
+  }
+  header.active .navbar a{
+    color: #fff;
+  }
+  header.active .navbar a:hover{
+    color: green;
   }
 }
 @media (max-width:450px){
