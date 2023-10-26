@@ -32,6 +32,7 @@ section{
 .heading{
     text-align: center;
     padding: 2.5rem 0;
+    
 }
 .heading span{
     font-size: 3.5rem;
@@ -301,7 +302,7 @@ header .search-bar-container label:hover{
 }
 
 .home .controls .vid-btn.active{
-    background: #2F4F4F;
+    background: green;
 }
 
 .book .row{
@@ -395,7 +396,7 @@ header .search-bar-container label:hover{
 .menu .contenu .box p{
     margin: 10px 0;
     font-size: 18px;
-    color:#666
+    color:#666;
     text-transform: unset;
     text-align: center;
 }
@@ -403,8 +404,8 @@ header .search-bar-container label:hover{
 .menu-D{
     text-align: center;
     padding: 20px;
+   
 }
-
 .menu-D .titre-D {
     margin-bottom: 20px;
 }
@@ -448,7 +449,7 @@ header .search-bar-container label:hover{
 .menu-D .contenu-D .box-D .content-D p{
     margin: 10px 0;
     font-size: 18px;
-    color:#666
+    color:#666;
     text-transform: unset;
     text-align: center;
 }
@@ -501,7 +502,7 @@ header .search-bar-container label:hover{
 .menu-B .contenu-B .box-B .content-B p{
     margin: 10px 0;
     font-size: 18px;
-    color:#666
+    color:#666;
     text-transform: unset;
     text-align: center;
 }
