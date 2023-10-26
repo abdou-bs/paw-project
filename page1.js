@@ -60,3 +60,26 @@ videobtn.forEach(btn =>{
 })
 
 
+const swiperWrapper = document.querySelector('.swiper-wrapper');
+const prevButton = document.getElementById('prevButton');
+const nextButton = document.getElementById('nextButton');
+
+const slideWidth = 200; // Customize as needed
+let currentPosition = 0;
+
+nextButton.addEventListener('click', () => {
+    if (currentPosition > -(swiperWrapper.children.length - 3) * slideWidth) {
+        currentPosition -= slideWidth;
+        swiperWrapper.style.transform = `translateX(${currentPosition}px)`;
+    }
+});
+
+prevButton.addEventListener('click', () => {
+    if (currentPosition < 0) {
+        currentPosition += slideWidth;
+        swiperWrapper.style.transform = `translateX(${currentPosition}px)`;
+    }
+});
+
+
+
