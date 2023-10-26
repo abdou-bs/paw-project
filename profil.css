@@ -150,6 +150,7 @@ header .navbar ul li a:hover{
 .about h1{
     font-size: 5rem;
     color:green ;
+    text-align: center;
 }
 .about span{
     color: black;
@@ -165,7 +166,9 @@ header .navbar ul li a:hover{
     padding: 1rem 0;
 }
 
-
+.plan{
+    padding: 0 5rem;
+}
 .plan .box-container{
  display: flex;
  align-items: center;
@@ -193,7 +196,7 @@ cursor: pointer;
 .plan h1{
     font-size: 5rem;
     color:green ;
-  
+    border-bottom: .1rem solid black;
     display: flex;
     justify-content: center;
    
@@ -205,7 +208,72 @@ cursor: pointer;
     font-size: 2rem;
 
 }
+.add{
+    display: flex;
+    justify-content: center;
+    flex-flow:column;
+    padding: 0 5rem;
+    align-items: center;
+}
+.add h1{
+    font-size: 5rem;
+    color:green ;
+    display: flex;
+    justify-content: center;
+    border-bottom: .1rem solid black;
+   
+}
+.add p{
+    font-size: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+.add .btn{
+    margin-top: 3rem;
+}
 
+.favori{
+    padding: 0 5rem;
+}
+.favori .box-container{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-wrap: wrap;
+padding: 2rem 0;
+}
+.favori .box-container .box{  
+height: 15rem;
+width: 15rem;
+border-radius: 1rem;
+margin: 2rem;
+overflow: hidden;
+cursor: pointer;
+
+}
+.favori .box-container .box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.favori .box-container .box:hover {
+    transform: scale(1.2);
+}
+.favori h1{
+    font-size: 5rem;
+    color:green ;
+    border-bottom: .1rem solid black;
+    display: flex;
+    justify-content: center;
+   
+}
+.favori .box-container .box h3{
+    text-align: center;
+}
+.favori h3{
+    font-size: 2rem;
+
+}
 
 
 
@@ -246,14 +314,14 @@ cursor: pointer;
 }
 
 @media (max-width:760px){
-  html{
-    font-size: 50%;
-  }
+ 
  
 }
 @media (max-width:400px){
    header{
     width: 100vw;
    }
- 
+  html{
+    font-size: 45%;
+  }
 }
