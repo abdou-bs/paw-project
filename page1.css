@@ -364,7 +364,7 @@ header .search-bar-container label:hover{
     margin-bottom: 30px;
 }
 .menu .titre  h1 span {
-    color: #2F4F4F;
+    color: #8FBC8F;
     margin-left: 15px;
     font-family: 'mv boli';
 }
@@ -431,7 +431,7 @@ header .search-bar-container label:hover{
     margin-bottom: 30px;
 }
 .menu-D .titre-D  h1 span {
-    color: #2F4F4F;
+    color: #8FBC8F;
     margin-left: 15px;
     font-family: 'mv boli';
 }
@@ -500,7 +500,7 @@ header .search-bar-container label:hover{
     margin-bottom: 30px;
 }
 .menu-B .titre-B h1 span {
-    color: #2F4F4F;
+    color: #8FBC8F;
     margin-left: 15px;
     font-family: 'mv boli';
 }
@@ -562,11 +562,10 @@ header .search-bar-container label:hover{
     align-items: center; 
     justify-content: center;
     font-size: 55px;
-    margin: 0;
-    padding: 10px 0;
+   margin-bottom: -10px;
 }
 .clients .team h1 span {
-    color: #2F4F4F;
+    color: #8FBC8F;
     margin-left: 15px;
     font-family: 'mv boli'; 
 }
